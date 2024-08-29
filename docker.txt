@@ -1,0 +1,28 @@
+docker run node
+docker ps -a
+docker run -it node
+docker build .
+
+
+
+docker build -t <image_name> .
+docker ps
+docker ps -a
+docker run <image_name>
+docker stop <container_id>
+docker rm <container_id>
+docker rmi <image_name>
+docker pull <image_name>
+docker push <image_name>
+docker logs <container_id>
+docker attach <container_id>
+docker start 
+
+
+
+# Execute a command inside a running container
+docker exec <container_id> <command>
+
+
+
+
